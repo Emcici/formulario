@@ -1,0 +1,253 @@
+html {
+    font-family:'Montserrat', sans-serif;
+}
+
+body {
+    background: linear-gradient(90deg, #00897b, #038554);
+}
+
+.container {
+    text-align: center;
+    padding: 0;
+    margin: 50px 250px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.container__img {
+    padding: 0;
+    margin: 0 0 20px 0;
+    width: 100%;
+    height: 360px;
+    background-image: url(img/arroyo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.container__img img{
+    height: 100%;
+    width: 100%;
+}
+
+.caja {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    width: 200px;
+    height: 10px;
+    background-color: #5f9;
+    border: none;
+}
+
+.caja {
+    animation: trasladar 1.5s alternate infinite;
+}
+
+@keyframes trasladar {
+    0% {
+        transform: translate(0);
+    }
+    100% {
+        transform: translate(304px);
+    }
+}
+
+.container__title h1{
+    padding: 20px;
+    margin: 0;
+    transition: 0.3s;
+}
+
+.container__title h1:hover{
+    padding: 20px;
+    margin: 0;
+    letter-spacing: 0.5px;
+}
+
+i {
+    color: #00897b;
+    font-size: 70px;
+    transition: 1s;
+}
+
+i:hover {
+    color: #5f9;
+    font-size: 70px;
+}
+
+.container__description p{
+    padding-bottom: 20px;
+    margin: 0;
+}
+
+.container__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container__form-input {
+    background: linear-gradient(90deg, #f2f3f5, #fff);
+    padding: 15px;
+    margin: 10px;
+    border: none;
+    border-left: 4px solid transparent;
+    outline: none;
+    transition: 0.3s;
+}
+
+.container__form-input:hover {
+    background: #f2f3f5;
+}
+
+.container__form-input:focus {
+    border-left: 4px solid #5f9;
+}
+
+.container__btn {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-calcular {
+    background: linear-gradient(90deg, #008080, #00a550 );
+    color: #f2f3f5;
+    padding: 15px;
+    margin: 0px 10px 30px 10px;
+    width: 40%;
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-calcular:hover {
+    transition: 0.3s;
+    border: 1px solid #000;
+    background:linear-gradient(90deg, #fff, #f1fff8 );
+    color: #000;
+    font-weight: bold;
+}
+
+.btn-enviar {
+    background: linear-gradient(90deg, #008080, #00a550 );
+    color: #f2f3f5;
+    padding: 15px;
+    margin: 0px 10px 30px 10px;
+    width: 40%;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-enviar:hover {
+    transition: 0.3s;
+    border: 1px solid #000;
+    background:linear-gradient(90deg, #fff, #f1fff8 );
+    color: #000;
+    font-weight: bold;
+}
+
+.container-cajas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.caja2 {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+    animation: trasladar2 1.5s alternate infinite;
+}
+
+.caja3 {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+    animation: trasladar2 1.5s alternate-reverse infinite;
+}
+
+.caja4 {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+    animation: trasladar2 1.5s alternate infinite;
+}
+
+.caja5 {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+    animation: trasladar2 1.5s alternate-reverse infinite;
+}
+
+.caja6 {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+    animation: trasladar2 1.5s alternate infinite;
+}
+
+.caja7 {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+    animation: trasladar2 1.5s alternate-reverse infinite;
+}
+
+.caja8 {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+    animation: trasladar2 1.5s alternate infinite;
+}
+
+.caja9 {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+    animation: trasladar2 1.5s alternate-reverse infinite;
+}
+
+.caja10 {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-color: #000;
+    width: 50px;
+    height: 50px;
+    animation: trasladar2 1.5s alternate infinite;
+}
+
+@keyframes trasladar2 {
+    0% {
+        background-color: #5f9;
+    }
+    100% {
+        background-color: #00a550;
+    }
+}
+
+footer {
+    text-align: center;
+    background-color: #000;
+    color: #f2f3f5;
+    padding: 40px;
+    margin: 0;
+}
+
+span {
+    font-weight: bold;
+    color: #fff;
+}
